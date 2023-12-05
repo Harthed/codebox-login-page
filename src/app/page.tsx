@@ -4,16 +4,16 @@ import LogoDesktop from "@/img/codebox-p.png";
 
 export default function Home() {
   return (
-    <main className=" bg-neutral-800 lg:bg-background bg-cover flex flex-col items-center justify-between max-h-screen h-screen ">
+    <main className=" bg-neutral-800 lg:bg-background bg-cover flex flex-col items-center justify-between lg:justify-center max-h-screen h-screen ">
       <Image
-        className=" lg:sr-only mt-40 "
+        className=" lg:sr-only mt-40  "
         src={LogoMobile}
         alt="logo mobile"
       />
-      <div className=" flex flex-col text-2xl lg:text-sm gap-10 lg:gap-0 lg:bg-white lg:rounded-lg w-80 lg:mt-24 ">
-        <div className=" lg:p-4 lg:mt-3 ">
+      <div className=" text-2xl lg:text-sm gap-10 lg:gap-0 lg:bg-white lg:rounded-lg w-96 ">
+        <div className=" lg:p-4  ">
           <Image
-            className=" sr-only lg:not-sr-only lg:ml-14 "
+            className=" sr-only lg:not-sr-only lg:ml-14 lg:mt-3 "
             src={LogoDesktop}
             alt="logo pc"
             width={179}
@@ -32,7 +32,7 @@ export default function Home() {
           />
         </div>
         <div className=" flex flex-col mb-24 lg:mb-0 font-bold lg:p-4 w-full ">
-          <button className=" p-5 lg:p-3 text-white text-2xl bg-pink-600 rounded-lg w-full ">
+          <button className=" p-5 lg:p-3 mt-10 lg:mt-0 text-white text-2xl bg-pink-600 rounded-lg w-full ">
             Entrar
           </button>
           <button className=" p-5 text-pink-600 bg-white lg:p-1 lg:bg-neutral-400 rounded-lg w-full mt-3 ">
